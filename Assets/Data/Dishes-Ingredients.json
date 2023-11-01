@@ -3,254 +3,238 @@
     {
       "name": "Quesadillas de champiñones",
       "ingredients": [
-        "sarten",
-        "tortillas",
-        "queso",
-        "champiñones",
-        "tomate",
-        "chile",
-        "cebolla"
+        "Tortillas",
+        "Queso",
+        "Champiñones",
+        "Tomate",
+        "Chile",
+        "Cebolla"
       ]
     },
     {
       "name": "Quesadillas con nopales",
       "ingredients": [
-        "sarten",
-        "tortillas",
-        "queso",
-        "nopales",
-        "tomate",
-        "chile",
-        "cebolla"
+        "Tortillas",
+        "Queso",
+        "Nopales",
+        "Tomate",
+        "Chile",
+        "Cebolla"
       ]
     },
     {
       "name": "Quesadillas de panela con aguacate",
       "ingredients": [
-        "sarten",
-        "tortillas",
-        "panela",
-        "aguacate",
-        "tomate"
+        "Tortillas",
+        "Panela",
+        "Aguacate",
+        "Tomate"
       ]
     },
     {
       "name": "Omelette de champiñones",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "champiñones",
-        "tomate",
-        "chile",
-        "cebolla"
+        "Huevos",
+        "Champiñones",
+        "Tomate",
+        "Chile",
+        "Cebolla"
       ]
     },
     {
       "name": "Omelette de espinacas",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "espinacas",
-        "panela",
-        "sal y pimienta"
+        "Huevos",
+        "Espinacas",
+        "Panela",
+        "Sal y pimienta"
       ]
     },
     {
       "name": "Huevo a la mexicana",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "tomate",
-        "chile",
-        "cebolla"
+        "Huevos",
+        "Tomate",
+        "Chile",
+        "Cebolla"
       ]
     },
     {
       "name": "Huevo con nopales",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "nopales",
-        "tomate",
-        "chile",
-        "cebolla"
+        "Huevos",
+        "Nopales",
+        "Tomate",
+        "Chile",
+        "Cebolla"
       ]
     },
     {
       "name": "Toast de huevo",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "espinacas",
-        "aguacate",
-        "pan integral"
+        "Huevos",
+        "Espinacas",
+        "Aguacate",
+        "Pan Integral"
       ]
     },
     {
       "name": "Migas con huevo",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "tortillas",
-        "sal y pimienta",
-        "aguacate"
+        "Huevos",
+        "Tortillas",
+        "Aguacate"
       ]
     },
     {
       "name": "Tacos de huevo",
       "ingredients": [
-        "sarten",
-        "huevos",
-        "tortillas",
-        "sal y pimienta",
-        "aguacate"
+        "Huevos",
+        "Tortillas",
+        "Aguacate"
       ]
     },
     {
       "name": "Licuado de platano y guayaba",
       "ingredients": [
-        "licuadora",
-        "platano",
-        "guayaba",
-        "leche",
-        "avena",
-        "miel"
+        "Platano",
+        "Guayaba",
+        "Leche",
+        "Avena",
+        "Miel"
       ]
     },
     {
       "name": "Licuado de fresas",
       "ingredients": [
-        "licuadora",
-        "fresa",
-        "leche",
-        "avena",
-        "miel"
+        "Fresa",
+        "Leche",
+        "Avena",
+        "Miel"
       ]
     },
     {
       "name": "Licuado de manzana",
       "ingredients": [
-        "licuadora",
-        "manzana",
-        "leche",
-        "avena",
-        "miel"
+        "Manzana",
+        "Leche",
+        "Avena",
+        "Miel"
       ]
     },
     {
       "name": "Licuado de platano y fresa",
       "ingredients": [
-        "licuadora",
-        "platano",
-        "fresa",
-        "leche",
-        "avena",
-        "miel"
+        "Platano",
+        "Fresa",
+        "Leche",
+        "Avena",
+        "Miel"
       ]
     },
     {
       "name": "Bionico",
       "ingredients": [
-        "yogurt",
-        "platano",
-        "fresa",
-        "guayaba",
-        "avena",
-        "miel"
+        "Yogurt",
+        "Platano",
+        "Fresa",
+        "Guayaba",
+        "Avena",
+        "Miel"
       ]
     },
     {
       "name": "Sandwich de pollo",
       "ingredients": [
-        "pan integral",
-        "pollo",
-        "aguacate",
-        "tomate",
-        "lechuga"
+        "Pan Integral",
+        "Pollo",
+        "Aguacate",
+        "Tomate",
+        "Lechuga"
       ]
     },
     {
       "name": "Sandwich de atun",
       "ingredients": [
-        "pan integral",
-        "atun",
-        "tomate",
-        "cebolla",
-        "yogurt",
-        "aguacate"
+        "Pan Integral",
+        "Atun",
+        "Tomate",
+        "Cebolla",
+        "Yogurt",
+        "Aguacate"
       ]
     },
     {
       "name": "Sandwich de panela",
       "ingredients": [
-        "pan integral",
-        "panela",
-        "aguacate",
-        "tomate",
-        "espinacas"
+        "Pan Integral",
+        "Panela",
+        "Aguacate",
+        "Tomate",
+        "Espinacas"
       ]
     },
     {
       "name": "Ensalada de lechuga y pollo",
       "ingredients": [
-        "lechuga",
-        "pollo",
-        "tomate",
-        "cebolla",
-        "aguacate",
-        "champiñones"
+        "Lechuga",
+        "Pollo",
+        "Tomate",
+        "Cebolla",
+        "Aguacate",
+        "Champiñones"
       ]
     },
     {
       "name": "Ensalada de manzana",
       "ingredients": [
-        "lechuga",
-        "manzana",
-        "fresas",
-        "espinacas",
-        "panela"
+        "Lechuga",
+        "Manzana",
+        "Fresas",
+        "Espinacas",
+        "Panela"
       ]
     },
     {
       "name": "Tacos de pollo",
       "ingredients": [
-        "tortillas",
-        "pollo",
-        "tomate",
-        "aguacate",
-        "sal y pimienta"
+        "Tortillas",
+        "Pollo",
+        "Tomate",
+        "Aguacate",
+        "Sal y pimienta"
       ]
     },
     {
       "name": "Rollos de pollo con espinaca",
       "ingredients": [
-        "pollo",
-        "espinacas",
-        "panela",
-        "sal y pimienta",
-        "cebolla",
-        "chile"
+        "Pollo",
+        "Espinacas",
+        "Panela",
+        "Sal y pimienta",
+        "Cebolla",
+        "Chile"
       ]
     },
     {
       "name": "Pescado con espinacas",
       "ingredients": [
-        "pescado",
-        "sal y pimienta",
-        "espinacas",
-        "cebolla",
-        "chile",
-        "panela"
+        "Pescado",
+        "Sal y pimienta",
+        "Espinacas",
+        "Cebolla",
+        "Chile",
+        "Panela"
       ]
     },
     {
       "name": "Pescado a la mexicana",
       "ingredients": [
-        "pescado",
-        "chile",
-        "tomate",
-        "cebolla",
-        "sal y pimienta"
+        "Pescado",
+        "Chile",
+        "Tomate",
+        "Cebolla",
+        "Sal y pimienta"
       ]
     }
   ]
