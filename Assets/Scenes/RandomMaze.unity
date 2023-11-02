@@ -1862,10 +1862,12 @@ MonoBehaviour:
     type: 3}
   ingredientPrefab: {fileID: 1266676620386432491, guid: 2ec5589e15d274a4b975275603e6b8a5,
     type: 3}
-  panelPrefab: {fileID: 3909923449712039458, guid: cb26184499d004448980dc11191a51ca,
+  panelPrefab: {fileID: 7385413759321283504, guid: e742d4c836d570b458d3d30f957e8f3b,
     type: 3}
   floorPrefab: {fileID: 7697106431393757555, guid: 1688d23b0051ceb49a7eee898d24289b,
     type: 3}
+  jsonFile: {fileID: 4900000, guid: 59f2a5fb91bcaf946ac2305b182e4522, type: 3}
+  texture: {fileID: 2800000, guid: 4c926b36cd2894c41b98cf0c8e01037a, type: 3}
   quantityIngredients: 0
 --- !u!4 &1671700374
 Transform:

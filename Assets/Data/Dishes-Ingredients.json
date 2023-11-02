@@ -45,7 +45,7 @@
       "name": "Omelette de espinacas",
       "ingredients": [
         "Huevos",
-        "Espinacas",
+        "Espinaca",
         "Panela",
         "Sal y pimienta"
       ]
@@ -73,9 +73,9 @@
       "name": "Toast de huevo",
       "ingredients": [
         "Huevos",
-        "Espinacas",
+        "Espinaca",
         "Aguacate",
-        "Pan Integral"
+        "Pan"
       ]
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Licuado de fresas",
       "ingredients": [
-        "Fresa",
+        "Fresas",
         "Leche",
         "Avena",
         "Miel"
@@ -126,7 +126,7 @@
       "name": "Licuado de platano y fresa",
       "ingredients": [
         "Platano",
-        "Fresa",
+        "Fresas",
         "Leche",
         "Avena",
         "Miel"
@@ -137,7 +137,7 @@
       "ingredients": [
         "Yogurt",
         "Platano",
-        "Fresa",
+        "Fresas",
         "Guayaba",
         "Avena",
         "Miel"
@@ -146,7 +146,7 @@
     {
       "name": "Sandwich de pollo",
       "ingredients": [
-        "Pan Integral",
+        "Pan",
         "Pollo",
         "Aguacate",
         "Tomate",
@@ -156,8 +156,8 @@
     {
       "name": "Sandwich de atun",
       "ingredients": [
-        "Pan Integral",
-        "Atun",
+        "Pan",
+        "Lata de atun",
         "Tomate",
         "Cebolla",
         "Yogurt",
@@ -167,11 +167,11 @@
     {
       "name": "Sandwich de panela",
       "ingredients": [
-        "Pan Integral",
+        "Pan",
         "Panela",
         "Aguacate",
         "Tomate",
-        "Espinacas"
+        "Espinaca"
       ]
     },
     {
@@ -191,7 +191,7 @@
         "Lechuga",
         "Manzana",
         "Fresas",
-        "Espinacas",
+        "Espinaca",
         "Panela"
       ]
     },
@@ -209,7 +209,7 @@
       "name": "Rollos de pollo con espinaca",
       "ingredients": [
         "Pollo",
-        "Espinacas",
+        "Espinaca",
         "Panela",
         "Sal y pimienta",
         "Cebolla",
@@ -221,7 +221,7 @@
       "ingredients": [
         "Pescado",
         "Sal y pimienta",
-        "Espinacas",
+        "Espinaca",
         "Cebolla",
         "Chile",
         "Panela"

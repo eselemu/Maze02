@@ -1,7 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class MazeManager : MonoBehaviour
 {
@@ -22,6 +23,11 @@ public class MazeManager : MonoBehaviour
     public GameObject floorPrefab;
 
     MazeGenerator maze;//Objeto Maze, con el Laberinto ya generado
+
+
+    public TextAsset jsonFile;
+    Dish dish;
+    public Texture2D texture;
 
     int quantityPowers;//Cantidad de SuperPoderes
     public Power[] powers;//Arreglo de SuperPoderes
@@ -53,9 +59,11 @@ public class MazeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        getDish();
+
         //Inicializaci�n de arreglos y variables
         quantityPowers = 2;
-        quantityIngredients = 4;
+        quantityIngredients = dish.ingredients.Length;
         freeCells = new bool[mazeRows, mazeColumns];
         powers = new Power[quantityPowers];
         ingredients = new Ingredient[quantityIngredients];
@@ -79,6 +87,12 @@ public class MazeManager : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void getDish() {
+        Dishes jsonDishes = JsonUtility.FromJson<Dishes>(jsonFile.text);
+
+        dish = jsonDishes.dishes[Random.Range(0, jsonDishes.dishes.Length)];
     }
 
     void RenderMaze() {
@@ -178,7 +192,7 @@ public class MazeManager : MonoBehaviour
             ingredients[a].gameObjectIngredients = Instantiate(ingredientPrefab, new Vector3(0, -0.25f, 0), Quaternion.identity);
             ingredients[a].gameObjectIngredients.transform.position = 
                 new Vector3(((-mazeRows / 2) + ingredients[a].coordinateY) * wallSize, ingredients[a].gameObjectIngredients.transform.localScale.y / 2, ((mazeColumns / 2) - ingredients[a].coordinateX) * wallSize);
-            ingredients[a].gameObjectIngredients.name = "" + a;
+            ingredients[a].gameObjectIngredients.name = dish.ingredients[a];
         }
     }
 
@@ -208,9 +222,21 @@ public class MazeManager : MonoBehaviour
         RectTransform rectTransform = panelPrefab.GetComponent<RectTransform>();
         float panelWidth = rectTransform.rect.width;
         for (int a = 0; a < quantityIngredients; a++) {
-            ingredients[a].panelIngredient = Instantiate(panelPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            ingredients[a].panelIngredient = Instantiate(panelPrefab, new Vector3(-50, 50, 0), Quaternion.identity);
             ingredients[a].panelIngredient.transform.SetParent(GameObject.Find("IngredientPanelCanvas").transform, false);
-            ingredients[a].panelIngredient.transform.localPosition += new Vector3((panelWidth * a), 0, 0);
+            ingredients[a].panelIngredient.transform.localPosition += new Vector3(((panelWidth / 2) * a), 0, 0);
+
+            // Load the image for the ingredient panel.
+            Image image = ingredients[a].panelIngredient.GetComponent<Image>();
+            //texture = Resources.Load<Texture2D>("Images/Ingredients/Collected/Aguacate.png");
+            string path = "Assets/Images/Ingredients/NotCollected/" + dish.ingredients[a] + " NR.png";
+            texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+
+            if (texture != null)
+            {
+                Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
+                image.sprite = sprite;
+            }
         }
     }
 }
