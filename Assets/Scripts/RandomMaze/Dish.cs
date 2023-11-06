@@ -7,4 +7,5 @@ public class Dish
 {
     public string name;
     public string[] ingredients;
+    public string mealKind;
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 //Clase jugador
 public class PlayerManager : MonoBehaviour
 {
@@ -64,9 +65,21 @@ public class PlayerManager : MonoBehaviour
         else if (collision.CompareTag("Ingredient"))
         {
             int index = int.Parse(collision.gameObject.name);
-            MazeManager.MZ.ingredients[index].panelIngredient.GetComponent<Image>().color = Color.red;
+            //MazeManager.MZ.ingredients[index].panelIngredient.GetComponent<Image>().color = Color.red;
             MazeManager.MZ.ingredients[index].gameObjectIngredients.SetActive(false);
             MazeManager.MZ.ingredients[index].collected = true;
+
+            // Load the image for the ingredient panel.
+            Image image = MazeManager.MZ.ingredients[index].panelIngredient.GetComponent<Image>();
+            //texture = Resources.Load<Texture2D>("Images/Ingredients/Collected/Aguacate.png");
+            string path = "Assets/Images/Ingredients/Collected/" + MazeManager.MZ.dish.ingredients[index] + ".png";
+            Texture2D texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+
+            if (texture != null)
+            {
+                Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
+                image.sprite = sprite;
+            }
         }
         //Si el usuario colisiono con un super poder
         else if (collision.CompareTag("SuperPower"))
@@ -103,9 +116,20 @@ public class PlayerManager : MonoBehaviour
     void CollectNextIngredient() {
         for (int a = 0; a < MazeManager.MZ.quantityIngredients; a++) {
             if (!MazeManager.MZ.ingredients[a].collected) {
-                MazeManager.MZ.ingredients[a].panelIngredient.GetComponent<Image>().color = Color.red;
+                //MazeManager.MZ.ingredients[a].panelIngredient.GetComponent<Image>().color = Color.red;
                 MazeManager.MZ.ingredients[a].gameObjectIngredients.SetActive(false);
                 MazeManager.MZ.ingredients[a].collected = true;
+
+                Image image = MazeManager.MZ.ingredients[a].panelIngredient.GetComponent<Image>();
+                //texture = Resources.Load<Texture2D>("Images/Ingredients/Collected/Aguacate.png");
+                string path = "Assets/Images/Ingredients/Collected/" + MazeManager.MZ.dish.ingredients[a] + ".png";
+                Texture2D texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+
+                if (texture != null)
+                {
+                    Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
+                    image.sprite = sprite;
+                }
                 break;
             }
         }
