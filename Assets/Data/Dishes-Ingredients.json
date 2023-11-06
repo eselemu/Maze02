@@ -1,15 +1,16 @@
 {
   "dishes": [
     {
-      "name": "Quesadillas de champiñones",
+      "name": "Quesadillas de champiï¿½ones",
       "ingredients": [
         "Tortillas",
         "Queso",
-        "Champiñones",
+        "Champiï¿½ones",
         "Tomate",
         "Chile",
         "Cebolla"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Quesadillas con nopales",
@@ -20,7 +21,8 @@
         "Tomate",
         "Chile",
         "Cebolla"
-      ]
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Quesadillas de panela con aguacate",
@@ -29,17 +31,19 @@
         "Panela",
         "Aguacate",
         "Tomate"
-      ]
+      ],
+      "mealKind": "dinner"
     },
     {
-      "name": "Omelette de champiñones",
+      "name": "Omelette de champiï¿½ones",
       "ingredients": [
         "Huevos",
-        "Champiñones",
+        "Champiï¿½ones",
         "Tomate",
         "Chile",
         "Cebolla"
-      ]
+      ],
+      "mealKind": "collation"
     },
     {
       "name": "Omelette de espinacas",
@@ -47,8 +51,9 @@
         "Huevos",
         "Espinaca",
         "Panela",
-        "Sal y pimienta"
-      ]
+        "Sal and pimienta"
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Huevo a la mexicana",
@@ -57,7 +62,8 @@
         "Tomate",
         "Chile",
         "Cebolla"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Huevo con nopales",
@@ -67,7 +73,8 @@
         "Tomate",
         "Chile",
         "Cebolla"
-      ]
+      ],
+      "mealKind": "dinner"
     },
     {
       "name": "Toast de huevo",
@@ -76,7 +83,8 @@
         "Espinaca",
         "Aguacate",
         "Pan"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Migas con huevo",
@@ -84,7 +92,8 @@
         "Huevos",
         "Tortillas",
         "Aguacate"
-      ]
+      ],
+      "mealKind": "collation"
     },
     {
       "name": "Tacos de huevo",
@@ -92,7 +101,8 @@
         "Huevos",
         "Tortillas",
         "Aguacate"
-      ]
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Licuado de platano y guayaba",
@@ -102,7 +112,8 @@
         "Leche",
         "Avena",
         "Miel"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Licuado de fresas",
@@ -111,7 +122,8 @@
         "Leche",
         "Avena",
         "Miel"
-      ]
+      ],
+      "mealKind": "collation"
     },
     {
       "name": "Licuado de manzana",
@@ -120,7 +132,8 @@
         "Leche",
         "Avena",
         "Miel"
-      ]
+      ],
+      "mealKind": "dinner"
     },
     {
       "name": "Licuado de platano y fresa",
@@ -130,7 +143,8 @@
         "Leche",
         "Avena",
         "Miel"
-      ]
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Bionico",
@@ -141,7 +155,8 @@
         "Guayaba",
         "Avena",
         "Miel"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Sandwich de pollo",
@@ -151,7 +166,8 @@
         "Aguacate",
         "Tomate",
         "Lechuga"
-      ]
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Sandwich de atun",
@@ -162,7 +178,8 @@
         "Cebolla",
         "Yogurt",
         "Aguacate"
-      ]
+      ],
+      "mealKind": "dinner"
     },
     {
       "name": "Sandwich de panela",
@@ -172,7 +189,8 @@
         "Aguacate",
         "Tomate",
         "Espinaca"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Ensalada de lechuga y pollo",
@@ -182,8 +200,9 @@
         "Tomate",
         "Cebolla",
         "Aguacate",
-        "Champiñones"
-      ]
+        "Champiï¿½ones"
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Ensalada de manzana",
@@ -193,7 +212,8 @@
         "Fresas",
         "Espinaca",
         "Panela"
-      ]
+      ],
+      "mealKind": "dinner"
     },
     {
       "name": "Tacos de pollo",
@@ -203,7 +223,8 @@
         "Tomate",
         "Aguacate",
         "Sal y pimienta"
-      ]
+      ],
+      "mealKind": "breakfast"
     },
     {
       "name": "Rollos de pollo con espinaca",
@@ -214,7 +235,8 @@
         "Sal y pimienta",
         "Cebolla",
         "Chile"
-      ]
+      ],
+      "mealKind": "collation"
     },
     {
       "name": "Pescado con espinacas",
@@ -225,7 +247,8 @@
         "Cebolla",
         "Chile",
         "Panela"
-      ]
+      ],
+      "mealKind": "lunch"
     },
     {
       "name": "Pescado a la mexicana",
@@ -235,7 +258,8 @@
         "Tomate",
         "Cebolla",
         "Sal y pimienta"
-      ]
+      ],
+      "mealKind": "dinner"
     }
   ]
 }
