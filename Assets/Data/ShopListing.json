@@ -1,1 +1,395 @@
-{"money":0,"inventory":[{"name":"food","cost":123,"ingredients":["text","text1"],"type":0,"owned":true,"recipe":"text","sprite":"Assets/Sprites/Blue.png"},{"name":"food","cost":123,"ingredients":["text","text1"],"type":1,"owned":true,"recipe":"text","sprite":"Assets/Sprites/Red.png"},{"name":"food","cost":123,"ingredients":["text","text1"],"type":2,"owned":true,"recipe":"text","sprite":"Assets/Sprites/Red.png"},{"name":"food","cost":123,"ingredients":["text","text1"],"type":3,"owned":true,"recipe":"text","sprite":"Assets/Sprites/Red.png"}]}
+{
+  "money": 0,
+  "inventory": [
+    {
+      "name": "food",
+      "cost": 123,
+      "ingredients": [ "text", "text1" ],
+      "type": 0,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Blue.png"
+    },
+    {
+      "name": "Quesadillas de champi�ones",
+      "cost": 123,
+      "ingredients": [
+        "Tortillas",
+        "Queso",
+        "Champi�ones",
+        "Tomate",
+        "Chile",
+        "Cebolla"
+      ],
+      "type": 1,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Quesadillas con nopales",
+      "cost": 123,
+      "ingredients": [
+        "Tortillas",
+        "Queso",
+        "Nopales",
+        "Tomate",
+        "Chile",
+        "Cebolla"
+      ],
+      "type": 2,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Quesadillas de panela con aguacate",
+      "cost": 123,
+      "ingredients": [
+        "Tortillas",
+        "Panela",
+        "Aguacate",
+        "Tomate"
+      ],
+      "type": 3,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    },
+    {
+      "name": "Omelette de champi�ones",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Champi�ones",
+        "Tomate",
+        "Chile",
+        "Cebolla"
+      ],
+      "type": 4,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "collation"
+    },
+    {
+      "name": "Omelette de espinacas",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Espinaca",
+        "Panela",
+        "Sal and pimienta"
+      ],
+      "type": 5,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Huevo a la mexicana",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Tomate",
+        "Chile",
+        "Cebolla"
+      ],
+      "type": 6,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Huevo con nopales",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Nopales",
+        "Tomate",
+        "Chile",
+        "Cebolla"
+      ],
+      "type": 7,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    },
+    {
+      "name": "Toast de huevo",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Espinaca",
+        "Aguacate",
+        "Pan"
+      ],
+      "type": 8,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Migas con huevo",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Tortillas",
+        "Aguacate"
+      ],
+      "type": 9,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "collation"
+    },
+    {
+      "name": "Tacos de huevo",
+      "cost": 123,
+      "ingredients": [
+        "Huevos",
+        "Tortillas",
+        "Aguacate"
+      ],
+      "type": 10,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Licuado de platano y guayaba",
+      "cost": 123,
+      "ingredients": [
+        "Platano",
+        "Guayaba",
+        "Leche",
+        "Avena",
+        "Miel"
+      ],
+      "type": 11,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Licuado de fresas",
+      "cost": 123,
+      "ingredients": [
+        "Fresas",
+        "Leche",
+        "Avena",
+        "Miel"
+      ],
+      "type": 12,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "collation"
+    },
+    {
+      "name": "Licuado de manzana",
+      "cost": 123,
+      "ingredients": [
+        "Manzana",
+        "Leche",
+        "Avena",
+        "Miel"
+      ],
+      "type": 13,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    },
+    {
+      "name": "Licuado de platano y fresa",
+      "cost": 123,
+      "ingredients": [
+        "Platano",
+        "Fresas",
+        "Leche",
+        "Avena",
+        "Miel"
+      ],
+      "type": 14,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Bionico",
+      "cost": 123,
+      "ingredients": [
+        "Yogurt",
+        "Platano",
+        "Fresas",
+        "Guayaba",
+        "Avena",
+        "Miel"
+      ],
+      "type": 15,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Sandwich de pollo",
+      "cost": 123,
+      "ingredients": [
+        "Pan",
+        "Pollo",
+        "Aguacate",
+        "Tomate",
+        "Lechuga"
+      ],
+      "type": 16,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Sandwich de atun",
+      "cost": 123,
+      "ingredients": [
+        "Pan",
+        "Lata de atun",
+        "Tomate",
+        "Cebolla",
+        "Yogurt",
+        "Aguacate"
+      ],
+      "type": 17,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    },
+    {
+      "name": "Sandwich de panela",
+      "cost": 123,
+      "ingredients": [
+        "Pan",
+        "Panela",
+        "Aguacate",
+        "Tomate",
+        "Espinaca"
+      ],
+      "type": 18,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Ensalada de lechuga y pollo",
+      "cost": 123,
+      "ingredients": [
+        "Lechuga",
+        "Pollo",
+        "Tomate",
+        "Cebolla",
+        "Aguacate",
+        "Champi�ones"
+      ],
+      "type": 19,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Ensalada de manzana",
+      "cost": 123,
+      "ingredients": [
+        "Lechuga",
+        "Manzana",
+        "Fresas",
+        "Espinaca",
+        "Panela"
+      ],
+      "type": 20,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    },
+    {
+      "name": "Tacos de pollo",
+      "cost": 123,
+      "ingredients": [
+        "Tortillas",
+        "Pollo",
+        "Tomate",
+        "Aguacate",
+        "Sal y pimienta"
+      ],
+      "type": 21,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "breakfast"
+    },
+    {
+      "name": "Rollos de pollo con espinaca",
+      "cost": 123,
+      "ingredients": [
+        "Pollo",
+        "Espinaca",
+        "Panela",
+        "Sal and pimienta",
+        "Cebolla",
+        "Chile"
+      ],
+      "type": 22,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "collation"
+    },
+    {
+      "name": "Pescado con espinacas",
+      "cost": 123,
+      "ingredients": [
+        "Pescado",
+        "Sal and pimienta",
+        "Espinaca",
+        "Cebolla",
+        "Chile",
+        "Panela"
+      ],
+      "type": 23,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "lunch"
+    },
+    {
+      "name": "Pescado a la mexicana",
+      "cost": 123,
+      "ingredients": [
+        "Pescado",
+        "Chile",
+        "Tomate",
+        "Cebolla",
+        "Sal and pimienta"
+      ],
+      "type": 24,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Sprites/Red.png",
+      "mealKind": "dinner"
+    }
+  ]
+}
