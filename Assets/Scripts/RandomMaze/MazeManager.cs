@@ -26,7 +26,7 @@ public class MazeManager : MonoBehaviour
 
 
     public TextAsset jsonFile;
-    Dish dish;
+    public Dish dish;
     public Texture2D texture;
 
     int quantityPowers;//Cantidad de SuperPoderes
@@ -192,7 +192,7 @@ public class MazeManager : MonoBehaviour
             ingredients[a].gameObjectIngredients = Instantiate(ingredientPrefab, new Vector3(0, -0.25f, 0), Quaternion.identity);
             ingredients[a].gameObjectIngredients.transform.position = 
                 new Vector3(((-mazeRows / 2) + ingredients[a].coordinateY) * wallSize, ingredients[a].gameObjectIngredients.transform.localScale.y / 2, ((mazeColumns / 2) - ingredients[a].coordinateX) * wallSize);
-            ingredients[a].gameObjectIngredients.name = dish.ingredients[a];
+            ingredients[a].gameObjectIngredients.name = "" + a;
         }
     }
 
@@ -224,7 +224,7 @@ public class MazeManager : MonoBehaviour
         for (int a = 0; a < quantityIngredients; a++) {
             ingredients[a].panelIngredient = Instantiate(panelPrefab, new Vector3(-50, 50, 0), Quaternion.identity);
             ingredients[a].panelIngredient.transform.SetParent(GameObject.Find("IngredientPanelCanvas").transform, false);
-            ingredients[a].panelIngredient.transform.localPosition += new Vector3(((panelWidth / 2) * a), 0, 0);
+            ingredients[a].panelIngredient.transform.localPosition += new Vector3(0, ((panelWidth / 2) * -a), 0);
 
             // Load the image for the ingredient panel.
             Image image = ingredients[a].panelIngredient.GetComponent<Image>();
