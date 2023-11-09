@@ -6,6 +6,11 @@ using UnityEngine;
 public class Dish
 {
     public string name;
+    public int cost;
     public string[] ingredients;
+    public int type;
+    public bool owned;
+    public string recipe;
+    public string sprite;
     public string mealKind;
 }

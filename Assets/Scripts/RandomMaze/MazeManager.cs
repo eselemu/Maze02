@@ -26,6 +26,7 @@ public class MazeManager : MonoBehaviour
 
 
     public TextAsset jsonFile;
+    List<int> ownedIndexes = new List<int>();
     public Dish dish;
     public Texture2D texture;
 
@@ -90,9 +91,12 @@ public class MazeManager : MonoBehaviour
     }
 
     void getDish() {
-        Dishes jsonDishes = JsonUtility.FromJson<Dishes>(jsonFile.text);
+        ShopListingSchema jsonDishes = JsonUtility.FromJson<ShopListingSchema>(jsonFile.text);
 
-        dish = jsonDishes.dishes[Random.Range(0, jsonDishes.dishes.Length)];
+        foreach (Dish d in jsonDishes.inventory) {
+            ownedIndexes.Add(d.type - 1);
+        }
+        dish = jsonDishes.inventory[ownedIndexes[Random.Range(0, ownedIndexes.Count)]];
     }
 
     void RenderMaze() {

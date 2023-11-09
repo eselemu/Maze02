@@ -1866,8 +1866,17 @@ MonoBehaviour:
     type: 3}
   floorPrefab: {fileID: 7697106431393757555, guid: 1688d23b0051ceb49a7eee898d24289b,
     type: 3}
-  jsonFile: {fileID: 4900000, guid: 59f2a5fb91bcaf946ac2305b182e4522, type: 3}
-  texture: {fileID: 2800000, guid: 4c926b36cd2894c41b98cf0c8e01037a, type: 3}
+  jsonFile: {fileID: 4900000, guid: 335d76c4d9f2f774083f321e2820e765, type: 3}
+  dish:
+    name: 
+    cost: 0
+    ingredients: []
+    type: 0
+    owned: 0
+    recipe: 
+    sprite: 
+    mealKind: 
+  texture: {fileID: 2800000, guid: 3df6c0d41f1bc054e9dc36f9308bf310, type: 3}
   quantityIngredients: 0
 --- !u!4 &1671700374
 Transform:

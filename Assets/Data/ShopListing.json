@@ -2,21 +2,12 @@
   "money": 0,
   "inventory": [
     {
-      "name": "food",
-      "cost": 123,
-      "ingredients": [ "text", "text1" ],
-      "type": 0,
-      "owned": true,
-      "recipe": "text",
-      "sprite": "Assets/Sprites/Blue.png"
-    },
-    {
       "name": "Quesadillas de champi�ones",
       "cost": 123,
       "ingredients": [
         "Tortillas",
         "Queso",
-        "Champi�ones",
+        "Champinones",
         "Tomate",
         "Chile",
         "Cebolla"
@@ -64,7 +55,7 @@
       "cost": 123,
       "ingredients": [
         "Huevos",
-        "Champi�ones",
+        "Champinones",
         "Tomate",
         "Chile",
         "Cebolla"
@@ -301,7 +292,7 @@
         "Tomate",
         "Cebolla",
         "Aguacate",
-        "Champi�ones"
+        "Champinones"
       ],
       "type": 19,
       "owned": true,

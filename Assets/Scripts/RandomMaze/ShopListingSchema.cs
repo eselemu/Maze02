@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dishes
+public class ShopListingSchema
 {
-    public Dish[] dishes;
+    public int money;
+    public Dish[] inventory;
 }
