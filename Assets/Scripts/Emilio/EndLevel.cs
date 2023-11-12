@@ -15,7 +15,6 @@ public class EndLevel : MonoBehaviour
     public TextMeshProUGUI alcancia;
     public void detenerNivel()//cuando es llamada se detiene tantoe el timer como la barra de progreso y el gameplay
     {
-        //Debug.Log("Hola perra");
         timer.setFinish(true);
         progressBar.setFinish(true);
         gameData.ContarEstrellas();//Conteo de las estrellas del nivel
@@ -28,7 +27,6 @@ public class EndLevel : MonoBehaviour
         estrellas.text = "Estrellas: " + gameData.getNEstrellas();//Asigna el numero de estrellas a la text box coordinada con estrellas
         alcancia.text = "EstrellasEnAlcancia: " + PlayerPrefs.GetInt("Alcancia_estrellas");//Establece el numero de estrellas como el texto asignado desde unity
         background.SetActive(true);//El default de mi background es false, al ponerlo true se sobrepone al juego.
-        //Debug.Log("End");
         Debug.Log(PlayerPrefs.GetInt("Alcancia_estrellas"));
     }
 }

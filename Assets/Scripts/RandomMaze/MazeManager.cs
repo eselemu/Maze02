@@ -68,6 +68,7 @@ public class MazeManager : MonoBehaviour
         freeCells = new bool[mazeRows, mazeColumns];
         powers = new Power[quantityPowers];
         ingredients = new Ingredient[quantityIngredients];
+        ProgressBar.PB.sliderIncrement = (float)(1.0f / quantityIngredients);
 
         //Se instancia el objeto maze, generando el Laberinto
         maze = new MazeGenerator();
@@ -97,6 +98,7 @@ public class MazeManager : MonoBehaviour
             ownedIndexes.Add(d.type - 1);
         }
         dish = jsonDishes.inventory[ownedIndexes[Random.Range(0, ownedIndexes.Count)]];
+        dish = jsonDishes.inventory[8];
     }
 
     void RenderMaze() {

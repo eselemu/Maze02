@@ -64,6 +64,7 @@ public class PlayerManager : MonoBehaviour
         //Si el usuario colisiono con un Ingrediente, se colecta el respectivo ingrediente y su respectivo panel cambia de igual forma
         else if (collision.CompareTag("Ingredient"))
         {
+            ProgressBar.PB.IncrementProgressBar();
             int index = int.Parse(collision.gameObject.name);
             //MazeManager.MZ.ingredients[index].panelIngredient.GetComponent<Image>().color = Color.red;
             MazeManager.MZ.ingredients[index].gameObjectIngredients.SetActive(false);
@@ -98,6 +99,7 @@ public class PlayerManager : MonoBehaviour
                     break;
                 case "X":
                     CollectNextIngredient();
+                    ProgressBar.PB.IncrementProgressBar();
                     break;
                     //5-10 segundos
                 case "Borrador":
