@@ -353,7 +353,7 @@
           "Cebolla",
           "Sal and pimienta"
         ],
-        "type": 3,
+        "type": 0,
         "owned": true,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
