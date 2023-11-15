@@ -1,363 +1,221 @@
 {
-    "money": 0,
-    "inventory": [
-      {
-        "name": "Quesadillas de champi�ones",
-        "cost": 1,
-        "ingredients": [
-          "Tortillas",
-          "Queso",
-          "Champinones",
-          "Tomate",
-          "Chile",
-          "Cebolla"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Quesadillas con nopales",
-        "cost": 1.5,
-        "ingredients": [
-          "Tortillas",
-          "Queso",
-          "Nopales",
-          "Tomate",
-          "Chile",
-          "Cebolla"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Quesadillas de panela con aguacate",
-        "cost": 1.5,
-        "ingredients": [
-          "Tortillas",
-          "Panela",
-          "Aguacate",
-          "Tomate"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Omelette de champi�ones",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Champinones",
-          "Tomate",
-          "Chile",
-          "Cebolla"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Omelette de espinacas",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Espinaca",
-          "Panela",
-          "Sal and pimienta"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Huevo a la mexicana",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Tomate",
-          "Chile",
-          "Cebolla"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Huevo con nopales",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Nopales",
-          "Tomate",
-          "Chile",
-          "Cebolla"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Toast de huevo",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Espinaca",
-          "Aguacate",
-          "Pan"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Migas con huevo",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Tortillas",
-          "Aguacate"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Tacos de huevo",
-        "cost": 1.5,
-        "ingredients": [
-          "Huevos",
-          "Tortillas",
-          "Aguacate"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Licuado de platano y guayaba",
-        "cost": 1.5,
-        "ingredients": [
-          "Platano",
-          "Guayaba",
-          "Leche",
-          "Avena",
-          "Miel"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Licuado de fresas",
-        "cost": 1.5,
-        "ingredients": [
-          "Fresas",
-          "Leche",
-          "Avena",
-          "Miel"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Licuado de manzana",
-        "cost": 1.5,
-        "ingredients": [
-          "Manzana",
-          "Leche",
-          "Avena",
-          "Miel"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Licuado de platano y fresa",
-        "cost": 1.5,
-        "ingredients": [
-          "Platano",
-          "Fresas",
-          "Leche",
-          "Avena",
-          "Miel"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Bionico",
-        "cost": 1.5,
-        "ingredients": [
-          "Yogurt",
-          "Platano",
-          "Fresas",
-          "Guayaba",
-          "Avena",
-          "Miel"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Sandwich de pollo",
-        "cost": 1.5,
-        "ingredients": [
-          "Pan",
-          "Pollo",
-          "Aguacate",
-          "Tomate",
-          "Lechuga"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Sandwich de atun",
-        "cost": 1.5,
-        "ingredients": [
-          "Pan",
-          "Lata de atun",
-          "Tomate",
-          "Cebolla",
-          "Yogurt",
-          "Aguacate"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Sandwich de panela",
-        "cost": 1.5,
-        "ingredients": [
-          "Pan",
-          "Panela",
-          "Aguacate",
-          "Tomate",
-          "Espinaca"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Ensalada de lechuga y pollo",
-        "cost": 1.5,
-        "ingredients": [
-          "Lechuga",
-          "Pollo",
-          "Tomate",
-          "Cebolla",
-          "Aguacate",
-          "Champinones"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Ensalada de manzana",
-        "cost": 1.5,
-        "ingredients": [
-          "Lechuga",
-          "Manzana",
-          "Fresas",
-          "Espinaca",
-          "Panela"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Tacos de pollo",
-        "cost": 1.5,
-        "ingredients": [
-          "Tortillas",
-          "Pollo",
-          "Tomate",
-          "Aguacate",
-          "Sal y pimienta"
-        ],
-        "type": 3,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Rollos de pollo con espinaca",
-        "cost": 1.5,
-        "ingredients": [
-          "Pollo",
-          "Espinaca",
-          "Panela",
-          "Sal and pimienta",
-          "Cebolla",
-          "Chile"
-        ],
-        "type": 1,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Pescado con espinacas",
-        "cost": 1.5,
-        "ingredients": [
-          "Pescado",
-          "Sal and pimienta",
-          "Espinaca",
-          "Cebolla",
-          "Chile",
-          "Panela"
-        ],
-        "type": 2,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      },
-      {
-        "name": "Pescado a la mexicana",
-        "cost": 1.5,
-        "ingredients": [
-          "Pescado",
-          "Chile",
-          "Tomate",
-          "Cebolla",
-          "Sal and pimienta"
-        ],
-        "type": 0,
-        "owned": false,
-        "recipe": "text",
-        "sprite": "Assets/Sprites/Red.png"
-      }
-    ]
-  }
-  
+  "money": 28,
+  "inventory": [
+    {
+      "name": "Quesadillas de champinones",
+      "cost": 1,
+      "ingredients": [ "Tortillas", "Queso", "Champinones", "Tomate", "Chile", "Cebolla" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Quesadillas de champinones.png"
+    },
+    {
+      "name": "Quesadillas con nopales",
+      "cost": 1,
+      "ingredients": [ "Tortillas", "Queso", "Nopales", "Tomate", "Chile", "Cebolla" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Quesadillas con nopales.png"
+    },
+    {
+      "name": "Quesadillas de panela con aguacate",
+      "cost": 1,
+      "ingredients": [ "Tortillas", "Panela", "Aguacate", "Tomate" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Quesadillas de panela con aguacate.png"
+    },
+    {
+      "name": "Omelette de champinones",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Champinones", "Tomate", "Chile", "Cebolla" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Omelette de champinones.png"
+    },
+    {
+      "name": "Omelette de espinacas",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Espinaca", "Panela", "Sal and pimienta" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Omelette de espinacas.png"
+    },
+    {
+      "name": "Huevo a la mexicana",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Tomate", "Chile", "Cebolla" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Huevo a la mexicana.png"
+    },
+    {
+      "name": "Huevo con nopales",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Nopales", "Tomate", "Chile", "Cebolla" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Huevo con nopales.png"
+    },
+    {
+      "name": "Toast de huevo",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Espinaca", "Aguacate", "Pan" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Toast de huevo.png"
+    },
+    {
+      "name": "Migas con huevo",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Tortillas", "Aguacate" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Migas con huevo.png"
+    },
+    {
+      "name": "Tacos de huevo",
+      "cost": 1,
+      "ingredients": [ "Huevos", "Tortillas", "Aguacate" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Tacos de huevo.png"
+    },
+    {
+      "name": "Licuado de platano y guayaba",
+      "cost": 1,
+      "ingredients": [ "Platano", "Guayaba", "Leche", "Avena", "Miel" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Licuado de platano y guayaba.png"
+    },
+    {
+      "name": "Licuado de fresas",
+      "cost": 1,
+      "ingredients": [ "Fresas", "Leche", "Avena", "Miel" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Licuado de fresas.png"
+    },
+    {
+      "name": "Licuado de manzana",
+      "cost": 1,
+      "ingredients": [ "Manzana", "Leche", "Avena", "Miel" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Licuado de manzana.png"
+    },
+    {
+      "name": "Licuado de platano y fresa",
+      "cost": 1,
+      "ingredients": [ "Platano", "Fresas", "Leche", "Avena", "Miel" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Licuado de platano y fresa.png"
+    },
+    {
+      "name": "Bionico",
+      "cost": 1,
+      "ingredients": [ "Yogurt", "Platano", "Fresas", "Guayaba", "Avena", "Miel" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Bionico.png"
+    },
+    {
+      "name": "Sandwich de pollo",
+      "cost": 1,
+      "ingredients": [ "Pan", "Pollo", "Aguacate", "Tomate", "Lechuga" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Sandwich de pollo.png"
+    },
+    {
+      "name": "Sandwich de atun",
+      "cost": 1,
+      "ingredients": [ "Pan", "Lata de atun", "Tomate", "Cebolla", "Yogurt", "Aguacate" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Sandwich de atun.png"
+    },
+    {
+      "name": "Sandwich de panela",
+      "cost": 1,
+      "ingredients": [ "Pan", "Panela", "Aguacate", "Tomate", "Espinaca" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Sandwich de panela.png"
+    },
+    {
+      "name": "Ensalada de lechuga y pollo",
+      "cost": 1,
+      "ingredients": [ "Lechuga", "Pollo", "Tomate", "Cebolla", "Aguacate", "Champinones" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Ensalada de lechuga y pollo.png"
+    },
+    {
+      "name": "Ensalada de manzana",
+      "cost": 1,
+      "ingredients": [ "Lechuga", "Manzana", "Fresas", "Espinaca", "Panela" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Ensalada de manzana.png"
+    },
+    {
+      "name": "Tacos de pollo",
+      "cost": 1,
+      "ingredients": [ "Tortillas", "Pollo", "Tomate", "Aguacate", "Sal y pimienta" ],
+      "type": 3,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Tacos de pollo.png"
+    },
+    {
+      "name": "Rollos de pollo con espinaca",
+      "cost": 1,
+      "ingredients": [ "Pollo", "Espinaca", "Panela", "Sal and pimienta", "Cebolla", "Chile" ],
+      "type": 1,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Rollos de pollo con espinaca.png"
+    },
+    {
+      "name": "Pescado con espinacas",
+      "cost": 1,
+      "ingredients": [ "Pescado", "Sal and pimienta", "Espinaca", "Cebolla", "Chile", "Panela" ],
+      "type": 2,
+      "owned": false,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Pescado con espinacas.png"
+    },
+    {
+      "name": "Pescado a la mexicana",
+      "cost": 1,
+      "ingredients": [ "Pescado", "Chile", "Tomate", "Cebolla", "Sal and pimienta" ],
+      "type": 0,
+      "owned": true,
+      "recipe": "text",
+      "sprite": "Assets/Images/Dishes/Unblocked/Pescado a la mexicana.png"
+    }
+  ]
+}

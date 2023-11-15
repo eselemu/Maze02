@@ -75,7 +75,7 @@ public class ShopItem : MonoBehaviour
 
     public void SetCost(int cost){
         this.cost = cost;
-        costContainer.text = cost.ToString() + " Stars.";
+        costContainer.text = cost.ToString() + " Stars";
     }
 
     public int GetCost(){
