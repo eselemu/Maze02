@@ -3,7 +3,7 @@
     "inventory": [
       {
         "name": "Quesadillas de champi�ones",
-        "cost": 123,
+        "cost": 1,
         "ingredients": [
           "Tortillas",
           "Queso",
@@ -13,13 +13,13 @@
           "Cebolla"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Quesadillas con nopales",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Tortillas",
           "Queso",
@@ -29,13 +29,13 @@
           "Cebolla"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Quesadillas de panela con aguacate",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Tortillas",
           "Panela",
@@ -43,13 +43,13 @@
           "Tomate"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Omelette de champi�ones",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Champinones",
@@ -58,13 +58,13 @@
           "Cebolla"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Omelette de espinacas",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Espinaca",
@@ -72,13 +72,13 @@
           "Sal and pimienta"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Huevo a la mexicana",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Tomate",
@@ -86,13 +86,13 @@
           "Cebolla"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Huevo con nopales",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Nopales",
@@ -101,13 +101,13 @@
           "Cebolla"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Toast de huevo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Espinaca",
@@ -115,39 +115,39 @@
           "Pan"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Migas con huevo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Tortillas",
           "Aguacate"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Tacos de huevo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Huevos",
           "Tortillas",
           "Aguacate"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Licuado de platano y guayaba",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Platano",
           "Guayaba",
@@ -156,13 +156,13 @@
           "Miel"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Licuado de fresas",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Fresas",
           "Leche",
@@ -170,13 +170,13 @@
           "Miel"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Licuado de manzana",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Manzana",
           "Leche",
@@ -184,13 +184,13 @@
           "Miel"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Licuado de platano y fresa",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Platano",
           "Fresas",
@@ -199,13 +199,13 @@
           "Miel"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Bionico",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Yogurt",
           "Platano",
@@ -215,13 +215,13 @@
           "Miel"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Sandwich de pollo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pan",
           "Pollo",
@@ -230,13 +230,13 @@
           "Lechuga"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Sandwich de atun",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pan",
           "Lata de atun",
@@ -246,13 +246,13 @@
           "Aguacate"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Sandwich de panela",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pan",
           "Panela",
@@ -261,13 +261,13 @@
           "Espinaca"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Ensalada de lechuga y pollo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Lechuga",
           "Pollo",
@@ -277,13 +277,13 @@
           "Champinones"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Ensalada de manzana",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Lechuga",
           "Manzana",
@@ -292,13 +292,13 @@
           "Panela"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Tacos de pollo",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Tortillas",
           "Pollo",
@@ -307,13 +307,13 @@
           "Sal y pimienta"
         ],
         "type": 3,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Rollos de pollo con espinaca",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pollo",
           "Espinaca",
@@ -323,13 +323,13 @@
           "Chile"
         ],
         "type": 1,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Pescado con espinacas",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pescado",
           "Sal and pimienta",
@@ -339,13 +339,13 @@
           "Panela"
         ],
         "type": 2,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       },
       {
         "name": "Pescado a la mexicana",
-        "cost": 123,
+        "cost": 1.5,
         "ingredients": [
           "Pescado",
           "Chile",
@@ -354,7 +354,7 @@
           "Sal and pimienta"
         ],
         "type": 0,
-        "owned": true,
+        "owned": false,
         "recipe": "text",
         "sprite": "Assets/Sprites/Red.png"
       }
