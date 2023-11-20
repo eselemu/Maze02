@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI TimerText;
     public EndLevel endLevel;
     private float startTime;//variable para establecer el tiempo por partida
-    private bool finish = false;//Booleano para detener el juego
+    private bool finish;//Booleano para detener el juego
     private float t; //t es la variable en la que se guarda la cuenta regresiva(es la variable impresa en el UI)
 
     public void setFinish(bool finish)//Funcion para modificar el valor de finish y detener el conteo
@@ -19,8 +19,8 @@ public class Timer : MonoBehaviour
     }
     void Start()
     {
-        startTime = 45.0f;//Establece el tiempo  de la partida en 45 segundos (no se imprime en pantalla)
-
+        startTime = Time.time + 45.0f;//Establece el tiempo  de la partida en 45 segundos (no se imprime en pantalla)
+        finish = false;
     }
 
     void Update()
@@ -49,8 +49,8 @@ public class Timer : MonoBehaviour
 
     public void IncreaseTimer(int increaseBy){
         startTime += increaseBy;
-        if(startTime > 45+Time.time){
-            startTime = 45+Time.time;
+        if(startTime > 45 + Time.time){
+            startTime = 45 + Time.time;
         }
     }
 }

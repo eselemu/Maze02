@@ -94,11 +94,11 @@ public class MazeManager : MonoBehaviour
     void getDish() {
         ShopListingSchema jsonDishes = JsonUtility.FromJson<ShopListingSchema>(jsonFile.text);
 
-        foreach (Dish d in jsonDishes.inventory) {
+        /*foreach (Dish d in jsonDishes.inventory) {
             ownedIndexes.Add(d.type - 1);
         }
-        dish = jsonDishes.inventory[ownedIndexes[Random.Range(0, ownedIndexes.Count)]];
-        dish = jsonDishes.inventory[8];
+        dish = jsonDishes.inventory[ownedIndexes[Random.Range(0, ownedIndexes.Count)]];*/
+        dish = jsonDishes.inventory[GameMaster.GM.selectedDish];
     }
 
     void RenderMaze() {

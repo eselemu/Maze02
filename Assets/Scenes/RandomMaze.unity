@@ -1494,6 +1494,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281943637}
   m_CullTransparentMesh: 1
+--- !u!1 &1391547736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1391547737}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1391547737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391547736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1200, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1514926558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,11 +1853,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1671700374}
   - component: {fileID: 1671700373}
-  - component: {fileID: 1671700375}
   - component: {fileID: 1671700377}
   - component: {fileID: 1671700376}
   - component: {fileID: 1671700378}
   - component: {fileID: 1671700379}
+  - component: {fileID: 1671700380}
   m_Layer: 0
   m_Name: MazeManager
   m_TagString: Untagged
@@ -1893,20 +1924,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1671700375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671700372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e08e735d2e74a37498ced0cc2b2f38b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TimerText: {fileID: 1281943639}
-  endLevel: {fileID: 1671700378}
 --- !u!114 &1671700376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,7 +1966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eca5411e885d044996cc89dae8535d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 1671700375}
+  timer: {fileID: 1671700380}
   progressBar: {fileID: 1671700376}
   gameData: {fileID: 1671700377}
   background: {fileID: 1555468899}
@@ -1967,6 +1984,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33001cc4696ebc946912fe86d8222687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1671700380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671700372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08e735d2e74a37498ced0cc2b2f38b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerText: {fileID: 1281943639}
+  endLevel: {fileID: 1671700378}
 --- !u!1 &1916007294
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class EndLevel : MonoBehaviour
     public GameObject background; // referencia la pantalla de final del nivel
     public TextMeshProUGUI estrellas;
     public TextMeshProUGUI alcancia;
+
+    //public void 
     public void detenerNivel()//cuando es llamada se detiene tantoe el timer como la barra de progreso y el gameplay
     {
         timer.setFinish(true);

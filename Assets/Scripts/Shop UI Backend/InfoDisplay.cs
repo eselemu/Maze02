@@ -11,6 +11,7 @@ public class InfoDisplay : MonoBehaviour
     private TextMeshProUGUI infoContainer;
 
     public void Activate(ShopItem item){
+        GameMaster.GM.selectedDish = item.GetID();
         gameObject.SetActive(true);
         nameContainer.text = item.GetName();
         infoContainer.text = "Ingredients\n";
